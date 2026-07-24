@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background: #f2f2f2dc;
+    line-height: 1.5;
+    background-image: url(contact\ us.webp) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+a {
+    text-decoration: none;
+ 
+}
+ 
+li a {
+    font-weight: 500;
+    color : #eb2bd1;
+}
+ 
+ul {
+    list-style: none;
+}
+
+
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+
+}
+ 
+body{
+    background: #97d9eb;
+   
+   
+}
+ 
+ 
+.container{
+    width: 90%;
+    margin: auto;
+}
+ 
+header{
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    box-shadow: 0 2px 5px gray;
+}
+ 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+ 
+.logo{
+    color: blue;
+}
+ 
+nav ul{
+    display: flex;
+    list-style: none;
+}
+ 
+nav ul li{
+    margin-left: 20px;
+}
+ 
+nav ul li a{
+    text-decoration: none;
+    color: black;
+   
+   
+}
+ 
+nav ul li a:hover{
+    color: blue;
+}
+
+
+
+/*header end*/
+
+.hero{
+    
+    color: black;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 80px;
+}
+
+
+
+.contact-details{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    margin: 40px 50px;
+    text-align: center;
+}
+.card{
+    background: white;
+    margin: 20px;
+    gap: 20px;
+    width: 350px;
+    min-height: 380px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgbs(0,0,0,0.2);
+}
+
+
+
+.card-form input{
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border:  1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+.card-form textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border:  1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+
+.card-form button{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn{
+    padding: 10px;
+    margin-top: 20px;
+  
+}
+.fn{
+    padding: 10px;
+    margin-top: 20px;
+}
+.contact-deatils button:hover{
+    background: #0b2345;
+}
+
+.contact-details h3{
+    margin: 1px;
+    padding: 1px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hero h4{
+    margin: 3px;
+    padding: 4px;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+}
+
+.hero h2{
+    margin: 3px;
+    padding: 4px;
+    font-size: 50px;
+    
+
+    
+}
+
+/*footer*/
+
+
+
+footer{
+    background:#222;
+    color:white;
+    padding:50px 30px 20px;
+}
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+}
+.footer-box{
+    width:220px;
+ 
+}
+.footer-box h2{
+    margin-bottom:15px;
+    color: #0d6efd;
+}
+.footer-box p{
+    margin:10px 0;
+}
+ 
+.footer-box a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin:10px 0;
+}
+ 
+.footer-box a:hover{
+    color:#0d6efd;
+}
+ 
+hr{
+    margin:30px 0 15px;
+}
+ 
+.copyright{
+    text-align:center;
+}
+
+
